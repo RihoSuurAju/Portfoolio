@@ -1,0 +1,147 @@
+:root {
+    --dark-background: rgb(48, 23, 40);
+    --big-text: rgb(226, 205, 245);
+    --dark-background-text: rgb(230, 215, 243);
+    --title-text: rgb(129, 45, 125);
+}
+
+.top-container {
+    position: relative;
+    background-color: var(--dark-background);
+    font-family: 'Mansalva', cursive;
+    height:600px;
+    /*border: 2px solid red;*/
+}
+
+.cloud-wrapper {
+    position: relative;
+    margin: 0 auto;
+    height:600px;
+    width:680px;
+    /*border: 2px solid red;*/
+}
+
+.cloud-wrapper img {
+    position: absolute;
+}
+
+.cloud1 {
+    bottom: 52%;
+    left: 14%;
+}
+
+.cloud2 {
+    bottom: 37%;
+    left: 73%;
+}
+
+.cloud3 {
+    bottom: 59%;
+    left: 49%;
+}
+
+.mountain {
+    bottom:0%;
+    left:2%;
+}
+
+.helloTitle {
+    position:absolute;
+    color: var(--big-text);
+    font-size:4rem;
+    bottom:70%;
+    left:12%;
+}
+
+.descriptionTitle {
+    position:absolute;
+    color: var(--dark-background-text);
+    font-size:2rem;
+    bottom:65%;
+    left:35%;
+}
+.descriptionTitle2 {
+    position:absolute;
+    color: var(--dark-background-text);
+    font-size:2rem;
+    bottom:60%;
+    left:35%;
+}
+
+h1,h2,h3 {
+    font-family:'Indie Flower', cursive;
+}
+
+span {
+    text-decoration: underline;
+}
+
+.middle-container {
+    margin: 0 auto;
+    width: 75%;
+    border:2px solid red;
+}
+
+.profile {
+    padding-bottom:3rem;
+    text-align:center;
+}
+
+.profile img {
+    width:100px;
+    padding: 2rem 0;
+}
+
+.profile h3 {
+    font-size: 2.3rem;
+    color:var(--title-text);
+}
+.profile p {
+    font-size: 1.25rem;
+}
+
+hr {
+    width: 23%;
+    border-width: 0.69rem;
+    border-style: dotted none none;
+    color:var(--title-text);
+}
+
+.skills {
+    border: 2px solid green;
+}
+
+.skills h2 {
+    font-size: 3rem;
+    color:var(--title-text);
+    text-align:center;
+}
+
+.skills h3 {
+    font-size: 2.3rem;
+    color:var(--title-text);
+    margin:0;
+}
+
+.skills-spaghetti {
+    width: 150px;
+    float: left;
+    margin-right:3rem;
+}
+
+.skills-row1 {
+    text-align:left;
+    margin-bottom:4rem;
+}
+
+
+
+.skills-gamer {
+    width: 150px;
+    float: right;
+    margin-left:3rem;
+}
+
+.skills-row2 {
+    text-align:right;
+}
