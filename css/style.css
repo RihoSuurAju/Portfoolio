@@ -1,15 +1,19 @@
 :root {
-    --dark-background: rgb(48, 23, 40);
+    --dark-background: #301728;
     --big-text: rgb(226, 205, 245);
-    --dark-background-text: rgb(230, 215, 243);
-    --title-text: rgb(129, 45, 125);
+    --dark-background-text: #e6d7f3;
+    --title-text: #812d7d;
+    --light-background: #c771a4;
 }
-
+body {
+    margin:0%;
+}
 .top-container {
     position: relative;
     background-color: var(--dark-background);
     font-family: 'Mansalva', cursive;
     height:600px;
+    width:100%;
     /*border: 2px solid red;*/
 }
 
@@ -79,7 +83,6 @@ span {
 .middle-container {
     margin: 0 auto;
     width: 75%;
-    border:2px solid red;
 }
 
 .profile {
@@ -92,11 +95,18 @@ span {
     padding: 2rem 0;
 }
 
-.profile h3 {
+.middle-container h3 {
     font-size: 2.3rem;
     color:var(--title-text);
 }
-.profile p {
+
+.middle-container h2 {
+    font-size: 3rem;
+    color:var(--title-text);
+    text-align:center;
+}
+
+.middle-container p {
     font-size: 1.25rem;
 }
 
@@ -107,34 +117,16 @@ hr {
     color:var(--title-text);
 }
 
-.skills {
-    border: 2px solid green;
-}
-
-.skills h2 {
-    font-size: 3rem;
-    color:var(--title-text);
-    text-align:center;
-}
-
-.skills h3 {
-    font-size: 2.3rem;
-    color:var(--title-text);
-    margin:0;
-}
-
 .skills-spaghetti {
     width: 150px;
     float: left;
     margin-right:3rem;
 }
 
-.skills-row1 {
+.skills-row {
     text-align:left;
     margin-bottom:4rem;
 }
-
-
 
 .skills-gamer {
     width: 150px;
@@ -142,6 +134,37 @@ hr {
     margin-left:3rem;
 }
 
-.skills-row2 {
-    text-align:right;
+.contact-me {
+    text-align: center;
 }
+
+.btn {
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border-radius: 11px;
+    font-family: 'Mansalva';
+    color: #e6d7f3;
+    font-size: 48px;
+    background: #301728;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    background: #c4459c;
+    text-decoration: none;
+  }
+  .bottom-container {
+      margin-top:2rem;
+      padding-bottom:1rem;
+      text-align: center;
+      background-color: var(--light-background);
+      font-family: 'Mansalva',cursive;
+      font-size: 2rem;
+  }
+
+  .bottom-container a {
+      text-decoration: none;
+      display:inline-block;
+      padding:1rem;
+  }
